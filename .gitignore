@@ -1,0 +1,22 @@
+# Virtual environments (qualsiasi versione di Python installata qui dentro)
+venv/
+.venv/
+ENV/
+env/
+
+# Interpreti Python locali (se per caso copi una cartella Python intera)
+python*/
+Python*/
+
+# Cache e file compilati
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurazioni IDE (facoltativo, utile se usi VSCode o PyCharm)
+.vscode/
+.idea/
+
+# Altri file temporanei
+*.log
